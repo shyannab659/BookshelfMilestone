@@ -1,0 +1,50 @@
+html {
+  height: 100%;
+}
+body {
+  background-color:  rgb(130, 181, 191);
+  max-width: 9000px;
+  margin: 0 auto;
+} 
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 5px solid rgb(93, 192, 175);
+  background-color: rgb(93, 192, 175);
+}
+header {
+  display: block;
+}
+.name {
+  font-size: x-large;
+  color: azure;
+}
+
+li {
+  list-style: none;
+  padding: 2em;
+}
+@media only screen and (min-width: 600px) {
+    .intro {
+        margin: 50px;
+    }
+    .media-link {
+        max-width: 80px;
+        max-height: 80px;
+    }
+}
+@media only screen and (max-width: 599px) {
+    .media-link {
+        max-width: 50px;
+        max-height: 50px;
+    }
+}
+footer {
+    text-align: center;
+    background-color: rgb(172, 180, 182);
+    border: 5px solid black;
+    margin: 50px;
+    
+}
