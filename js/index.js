@@ -93,11 +93,11 @@ const renderBook = (book) => {
     const commentCard = document.createElement("div");
   const comment = document.createElement("input");
   comment.setAttribute("type", "text");
-  //for loop for size of 280 characters or less
   const sendBtn = document.createElement("button");
   sendBtn.textContent = "Send";
   sendBtn.addEventListener("click", () => {
     const commentPar = document.createElement("p");
+    commentPar.className = "comment";
     const commentValue = comment.value;
     commentPar.textContent = commentValue;
 //when send button clicked, display comment, and remove input field/send btn  
